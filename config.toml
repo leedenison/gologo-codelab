@@ -1,0 +1,26 @@
+baseURL = "http://example.com"
+languageCode = "en-us"
+title = "Gologo"
+theme = "hugo-theme-learn"
+relativeURLs = true
+uglyURLs = true
+pygmentsUseClasses=true
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+disableSearch = true
+pronounHe = "he"
+capPronounHe = "He"
+pronounHimself = "himself"
+capPronounHimself = "Himself"
+pronounHim = "him"
+capPronounHim = "Him"
+#pronounHe = "she"
+#capPronounHe = "She"
+#pronounHimself = "herself"
+#capPronounHimself = "Herself"
+#pronounHim = "her"
+#capPronounHim = "Her"
